@@ -3,6 +3,8 @@
 * [1. Cas d'utilisation : déplacement de fichiers pdf puis archivage puis suppression des fichiers d'origine](#depl)
 * [2. Cas d'utilisation : job fils , job père](#perefils)
 * [3. Cas d'utilisation : Gestion de l’erreur OutOfMemory](#outofmemory)
+* [4. Cas d'utilisation : Filtre des colonnes](#colonnes)
+* [5. Cas d'utilisation : Filtre des lignes](#lignes)
 ## 1. Cas : déplacement de fichiers pdf puis archivage puis suppression des fichiers d'origine<a class="anchor" id="dep1"></a>
 ![depl1](Talend_images/deplacement_archivage_suppression.png)
 ![depl2](Talend_images/deplacement_archivage_suppression2.png)
@@ -22,5 +24,7 @@ On peut copier le shéma de sortie du job fils
 ![perefils5](Talend_images/perefils5.png)
 
 
-## 3. Cas : Cas d'utilisation : Gestion de l’erreur OutOfMemory<a class="anchor" id="outofmemory"></a>
+## 3. Cas d'utilisation : Gestion de l’erreur OutOfMemory<a class="anchor" id="outofmemory"></a>
+## 4. Cas d'utilisation : Filtre des colonnes<a class="anchor" id="colonnes"></a>
+## 5. Cas d'utilisation : Filtre des lignes<a class="anchor" id="lignes"></a>
 
