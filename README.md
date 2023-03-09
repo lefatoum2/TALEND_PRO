@@ -15,6 +15,8 @@
 ![perefils1](Talend_images/perefils1.png)
 ![perefils2](Talend_images/perefils2.png)
 ![perefils3](Talend_images/perefils3.png)
+
+On peut copier le shéma de sortie du job fils
 ![perefils4](Talend_images/perefils4.png)
 ![perefils5](Talend_images/perefils5.png)
 
