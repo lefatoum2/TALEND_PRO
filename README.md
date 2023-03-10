@@ -26,7 +26,9 @@ On peut copier le shéma de sortie du job fils
 
 ## 3. Cas d'utilisation : Gestion de l’erreur OutOfMemory<a class="anchor" id="outofmemory"></a>
 ![OutOfMemory1](Talend_images/OutOfMemory1.png)
+Il faut cocher sur la case "Utiliser les arguments JVM spécifiques
 ![OutOfMemory2](Talend_images/OutOfMemory2.png)
+Puis changer la valeur "-Xmx 1024M" 
 ![OutOfMemory3](Talend_images/OutOfMemory3.png)
 
 
