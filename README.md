@@ -25,6 +25,12 @@ On peut copier le shéma de sortie du job fils
 
 
 ## 3. Cas d'utilisation : Gestion de l’erreur OutOfMemory<a class="anchor" id="outofmemory"></a>
+![OutOfMemory1](Talend_images/OutOfMemory1.png)
+![OutOfMemory2](Talend_images/OutOfMemory2.png)
+![OutOfMemory3](Talend_images/OutOfMemory3.png)
+
+
+
 ## 4. Cas d'utilisation : Filtre des colonnes<a class="anchor" id="colonnes"></a>
 ## 5. Cas d'utilisation : Filtre des lignes<a class="anchor" id="lignes"></a>
 
