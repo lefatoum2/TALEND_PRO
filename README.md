@@ -30,6 +30,10 @@ Il faut cocher sur la case "Utiliser les arguments JVM spécifiques
 ![OutOfMemory2](Talend_images/OutOfMemory2.png)
 Puis changer la valeur "-Xmx 1024M" 
 ![OutOfMemory3](Talend_images/OutOfMemory3.png)
+![OutOfMemory4](Talend_images/OutOfMemory4.png)
+![OutOfMemory5](Talend_images/OutOfMemory5.png)
+![OutOfMemory6](Talend_images/OutOfMemory6.png)
+![OutOfMemory7](Talend_images/OutOfMemory7.png)
 
 
 
