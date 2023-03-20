@@ -8,6 +8,8 @@
 * [6. Cas d'utilisation: insertion de plusieurs fichiers dans une base de donnée](#insertionfichiers)
 * [7. Cas d'utilisation: update d'une table](#update)
 * [8. Cas d'utilisation: suppression d'une ou des lignes d'une base de donnée avec un fichier pivot](#suppression)
+* [9. Cas d'utilisation: extraction mensuelle ou trimestrielle](#mensuel_trim)
+* [10.Cas d'utilisation: sélectionnez plusieurs fichiers csv ou txt pour faire qu'un fichier xls](#csv_xls)
 ## 1. Cas : déplacement de fichiers pdf puis archivage puis suppression des fichiers d'origine<a class="anchor" id="dep1"></a>
 ![depl1](Talend_images/deplacement_archivage_suppression.png)
 ![depl2](Talend_images/deplacement_archivage_suppression2.png)
@@ -80,3 +82,27 @@ Attention : comme pour une mise à jour, la suppression demande une clé de supp
 ![suppression_tdbouput](./Talend_images/suppression_tdbouput.png)
 
 ![suppression_tdbfilterrow](./Talend_images/suppression_tfilterrow.png)
+
+## 9. Cas d'utilisation: extraction mensuelle ou trimestrielle <a class="anchor" id="mensuel_trim"></a>
+
+tJava
+```java
+context.DateLancement =  TalendDate.getCurrentDate();
+
+Date FirstDayMoisPrecedent = TalendDate.getFirstDayOfMonth(TalendDate.addDate(context.DateLancement,-1,"MM"));
+ 
+context.FirstDayMoisPrecedent = TalendDate.formatDate("dd-MM-yyyy", FirstDayMoisPrecedent);
+
+context.LastDayMoisPrecedent = TalendDate.formatDate("dd-MM-yyyy", TalendDate.getLastDayOfMonth(FirstDayMoisPrecedent)) ;
+
+context.AnneeMoisPrecedent = TalendDate.getPartOfDate("YEAR", FirstDayMoisPrecedent);
+```
+
+## Cas d'utilisation: sélectionnez plusieurs fichiers csv ou txt pour faire qu'un fichier xls<a class="anchor" id="csv_xls"></a>
+
+Pour le composant tFileOutputExcel, n'oubliez pas de cocher "Ajouter à la feuille existante". 
+Pour le composant tInputDelimited_2, sélectionnez "...CURRENT_FILEPATH..." de "tFileList" pour le mettre dans le "Nom de fichier/Flux".
+
+![gestion_fichiers](./Talend_images/gestion_fichiers2.png)
+
+![gestion_fichiers2](./Talend_images/gestion_fichiers3.png)
