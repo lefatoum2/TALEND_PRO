@@ -68,7 +68,7 @@ Dans cet exemple, j'essaie de forcer avec une mise à jour le numéro identifian
 
 Attention : vous devez spécifier au moins une colonne comme clé primaire sur laquelle baser les opérations Update ou alors Delete.
 
-## 8. Cas d'utilisation: suppression d'une ou des lignes d'une base de donnée avec un fichier pivot" id="suppression"></a>
+## 8. Cas d'utilisation: suppression d'une ou des lignes d'une base de donnée avec un fichier pivot<a class="anchor" id="suppression"></a>
 Dans cet exemple, j'essaie de supprimer la ligne d'un consommateur à l'aide de son identifiant et de son nom mis dans un fichier.
 
 ![suppression](./Talend_images/suppression.png)
