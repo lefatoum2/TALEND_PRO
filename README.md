@@ -10,6 +10,7 @@
 * [8. Cas d'utilisation: suppression d'une ou des lignes d'une base de donnée avec un fichier pivot](#suppression)
 * [9. Cas d'utilisation: extraction mensuelle ou trimestrielle](#mensuel_trim)
 * [10.Cas d'utilisation: sélectionnez plusieurs fichiers csv ou txt pour faire qu'un fichier xls](#csv_xls)
+* [11.Routines](#routines)
 ## 1. Cas : déplacement de fichiers pdf puis archivage puis suppression des fichiers d'origine<a class="anchor" id="dep1"></a>
 ![depl1](Talend_images/deplacement_archivage_suppression.png)
 ![depl2](Talend_images/deplacement_archivage_suppression2.png)
@@ -106,3 +107,16 @@ Pour le composant tInputDelimited_2, sélectionnez "...CURRENT_FILEPATH..." de "
 ![gestion_fichiers](./Talend_images/gestion_fichiers2.png)
 
 ![gestion_fichiers2](./Talend_images/gestion_fichiers3.png)
+
+## Routines<a class="anchor" id="routines"></a>
+
+```java
+row1.FirstName+' '+row1.LastName 
+StringHandling.DOWNCASE(row1.FirstName+row1.LastName)+"@gmail.fr" 
+!Relational.ISNULL(row1.Prenom)&& !Relational.ISNULL(row1.Nom)&&!Relational.ISNULL(row1.SIRET) 
+StringHandling.LEN(row1.Prenom)>5 &&StringHandling.LEN(row1.Nom)> 5 
+StringHandling.LEN(row1.NSS) == 13 || StringHandling.LEN(row1.NSS) == 15
+StringHandling.LEFT("chaîne à vérifier", n premiers caractères d'une chaîne de caractères)
+StringHandling.RIGHT("chaîne à vérifier", n derniers caractères d'une chaîne de caractèr)
+TalendDate.getDate("CCYY-MM-DD")
+```
