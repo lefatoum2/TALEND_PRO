@@ -11,6 +11,7 @@
 * [9. Cas d'utilisation: extraction mensuelle ou trimestrielle](#mensuel_trim)
 * [10.Cas d'utilisation: sélectionnez plusieurs fichiers csv ou txt pour faire qu'un fichier xls](#csv_xls)
 * [11.Routines](#routines)
+* [12.Cas d'utilisation: Insertion ou mise à jour d'une catégorie de produit](#cat)
 ## 1. Cas : déplacement de fichiers pdf puis archivage puis suppression des fichiers d'origine<a class="anchor" id="dep1"></a>
 ![depl1](Talend_images/deplacement_archivage_suppression.png)
 ![depl2](Talend_images/deplacement_archivage_suppression2.png)
@@ -120,3 +121,6 @@ StringHandling.LEFT("chaîne à vérifier", n premiers caractères d'une chaîne
 StringHandling.RIGHT("chaîne à vérifier", n derniers caractères d'une chaîne de caractèr)
 TalendDate.getDate("CCYY-MM-DD")
 ```
+## Cas d'utilisation: Insertion ou mise à jour d'une catégorie de produit <a class="anchor" id="cat"></a>
+
+![save_cat](./Talend_images/save_cat.png)
