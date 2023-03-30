@@ -127,3 +127,7 @@ TalendDate.getDate("CCYY-MM-DD")
 ![save_cat](./Talend_images/save_cat.png)
 
 ## Gestion de l’erreur : Error Handling <a class="anchor" id="handling"></a>
+
+![handling1](./Talend_images/tdie_tlogcatcher.png)
+![handling2](./Talend_images/tAssert.png)
+![handling3](./Talend_images/AssertCatcher.png)
