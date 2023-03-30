@@ -2,16 +2,17 @@
 
 * [1. Cas d'utilisation : déplacement de fichiers pdf puis archivage puis suppression des fichiers d'origine](#depl)
 * [2. Cas d'utilisation : job fils , job père](#perefils)
-* [3. Cas d'utilisation : Gestion de l’erreur OutOfMemory](#outofmemory)
+* [3. Gestion de l’erreur : OutOfMemory](#outofmemory)
 * [4. Cas d'utilisation : Filtre des colonnes](#colonnes)
 * [5. Cas d'utilisation : Filtre des lignes](#lignes)
 * [6. Cas d'utilisation: insertion de plusieurs fichiers dans une base de donnée](#insertionfichiers)
 * [7. Cas d'utilisation: update d'une table](#update)
 * [8. Cas d'utilisation: suppression d'une ou des lignes d'une base de donnée avec un fichier pivot](#suppression)
 * [9. Cas d'utilisation: extraction mensuelle ou trimestrielle](#mensuel_trim)
-* [10.Cas d'utilisation: sélectionnez plusieurs fichiers csv ou txt pour faire qu'un fichier xls](#csv_xls)
-* [11.Routines](#routines)
-* [12.Cas d'utilisation: Insertion ou mise à jour d'une catégorie de produit](#cat)
+* [10. Cas d'utilisation: sélectionnez plusieurs fichiers csv ou txt pour faire qu'un fichier xls](#csv_xls)
+* [11. Routines](#routines)
+* [12. Cas d'utilisation: Insertion ou mise à jour d'une catégorie de produit](#cat)
+* [13. Gestion de l’erreur : Error Handling](#handling)
 ## 1. Cas : déplacement de fichiers pdf puis archivage puis suppression des fichiers d'origine<a class="anchor" id="dep1"></a>
 ![depl1](Talend_images/deplacement_archivage_suppression.png)
 ![depl2](Talend_images/deplacement_archivage_suppression2.png)
@@ -124,3 +125,5 @@ TalendDate.getDate("CCYY-MM-DD")
 ## Cas d'utilisation: Insertion ou mise à jour d'une catégorie de produit <a class="anchor" id="cat"></a>
 
 ![save_cat](./Talend_images/save_cat.png)
+
+## Gestion de l’erreur : Error Handling <a class="anchor" id="handling"></a>
