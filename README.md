@@ -14,6 +14,8 @@
 * [12. Cas d'utilisation: Insertion ou mise à jour d'une catégorie de produit](#cat)
 * [13. Gestion de l’erreur : Error Handling](#handling)
 * [14. tFlowMeter](#tFlowMeter)
+* [15. tLogCatcher](#tLogCatcher)
+* [16. tStatCatcher](#tLogCatcher)
 ## 1. Cas : déplacement de fichiers pdf puis archivage puis suppression des fichiers d'origine<a class="anchor" id="dep1"></a>
 ![depl1](Talend_images/deplacement_archivage_suppression.png)
 ![depl2](Talend_images/deplacement_archivage_suppression2.png)
@@ -138,3 +140,12 @@ tFlowmeter renseigne sur le job en lui même (heure , nombre de ligne qui sont p
 moment de l'execution , nom du projet , nom du job , nombre de ligne(count), version ...)
 
 ![tFlowMeter](./Talend_images/tflowmeter.png)
+ 
+ 
+ ## tLogCatcher<a class="anchor" id="tLogCatcher"> 
+ 
+ tLogCatcher a pour but de capter tous les exceptions du tWarn , du tDie et Java
+ 
+ ## tStatCatcher<a class="anchor" id="tStatCatcher"> 
+ Le tStatCatcher est basé sur le schéma prédéfini et regroupe les métadonnées de traitement du Job au niveau du Job et au niveau du composant, lorsque la case tStatCatcher Statistics est cochée.
+ 
