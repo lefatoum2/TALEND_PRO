@@ -145,7 +145,7 @@ moment de l'execution , nom du projet , nom du job , nombre de ligne(count), ver
  ## tLogCatcher<a class="anchor" id="tLogCatcher"> 
  
  tLogCatcher a pour but de capter tous les exceptions du tWarn , du tDie et Java
- 
+ ![tlogcatcher](./Talend_images/tlogcatcher.png)
  ## tStatCatcher<a class="anchor" id="tStatCatcher"> 
  Le tStatCatcher est basé sur le schéma prédéfini et regroupe les métadonnées de traitement du Job au niveau du Job et au niveau du composant, lorsque la case tStatCatcher Statistics est cochée.
  
