@@ -149,3 +149,7 @@ moment de l'execution , nom du projet , nom du job , nombre de ligne(count), ver
  ## tStatCatcher<a class="anchor" id="tStatCatcher"> 
  Le tStatCatcher est basé sur le schéma prédéfini et regroupe les métadonnées de traitement du Job au niveau du Job et au niveau du composant, lorsque la case tStatCatcher Statistics est cochée.
  
+Il y a une autre possibilté d'avoir tous les logs et stats du job: 
+![allstats](./Talend_images/allstats.png)
+ 
+ 
