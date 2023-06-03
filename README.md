@@ -124,6 +124,8 @@ StringHandling.LEN(row1.NSS) == 13 || StringHandling.LEN(row1.NSS) == 15
 StringHandling.LEFT("chaîne à vérifier", n premiers caractères d'une chaîne de caractères)
 StringHandling.RIGHT("chaîne à vérifier", n derniers caractères d'une chaîne de caractèr)
 TalendDate.getDate("CCYY-MM-DD")
+### Age actuel selon date de naissance
+TalendDate.diffDateFloor(TalendDate.getCurrentDate(),row4.BirtthDay,"YYYY") 
 ```
 ## Cas d'utilisation: Insertion ou mise à jour d'une catégorie de produit <a class="anchor" id="cat"></a>
 
