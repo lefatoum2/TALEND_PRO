@@ -126,6 +126,25 @@ StringHandling.RIGHT("chaîne à vérifier", n derniers caractères d'une chaîn
 TalendDate.getDate("CCYY-MM-DD")
 ### Age actuel selon date de naissance
 TalendDate.diffDateFloor(TalendDate.getCurrentDate(),row4.BirtthDay,"YYYY") 
+
+row1.email.equals("xxx") / !row1.email.equals("xxx")
+Relational.isNull(Xxxx) / ! Relational.isNull(Xxxx)
+Xxxx.isEmpty() / ! Xxxx.isEmpty()
+Xxxx.startsWith ("xxx") / Xxxx.endswith ("xxx")
+Xxxx.contains ("xxx")
+
+### Conversion d'un string en int
+Integer.valueOf("xxxx") : 
+### Conversion d'un int en string
+String.valueOf(xxxx)
+### Conversion d'un int ou float en string
+variable.toString()
+### Conversion d'un char en float
+Float.parseFloat("xxxx")
+### Conversion en BigDecimal (de string ou integer)
+BigDecimal("xxxx" ou xxxx)
+### Conversion d'un string en date en précisant le format du string
+TalendDate.parseDate("dd/MM/yyyy","01/01/2021")
 ```
 ## Cas d'utilisation: Insertion ou mise à jour d'une catégorie de produit <a class="anchor" id="cat"></a>
 
