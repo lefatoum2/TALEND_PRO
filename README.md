@@ -128,7 +128,7 @@ TalendDate.getDate("CCYY-MM-DD")
 TalendDate.diffDateFloor(TalendDate.getCurrentDate(),row4.BirtthDay,"YYYY") 
 
 row1.email.equals("xxx") / !row1.email.equals("xxx")
-Relational.isNull(Xxxx) / ! Relational.isNull(Xxxx)
+Relational.ISNULL(Xxxx) / ! Relational.ISNULL(Xxxx)
 Xxxx.isEmpty() / ! Xxxx.isEmpty()
 Xxxx.startsWith ("xxx") / Xxxx.endswith ("xxx")
 Xxxx.contains ("xxx")
