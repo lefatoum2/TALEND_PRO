@@ -16,6 +16,7 @@
 * [14. tFlowMeter](#tFlowMeter)
 * [15. tLogCatcher](#tLogCatcher)
 * [16. tStatCatcher](#tLogCatcher)
+* [17. POSTGRESQL](#postgresql)
 ## 1. Cas : déplacement de fichiers pdf puis archivage puis suppression des fichiers d'origine<a class="anchor" id="dep1"></a>
 ![depl1](Talend_images/deplacement_archivage_suppression.png)
 ![depl2](Talend_images/deplacement_archivage_suppression2.png)
@@ -172,5 +173,13 @@ moment de l'execution , nom du projet , nom du job , nombre de ligne(count), ver
  
 Il y a une autre possibilté d'avoir tous les logs et stats du job: 
 ![allstats](./Talend_images/allstats.png)
- 
+
+
+## POSTGRESQL<a class="anchor" id="postgresql"> 
+```sql
+"SELECT 
+  \""+context.postgreschinook1_Schema+"\".\"Artist\".\"ArtistId\", 
+  \""+context.postgreschinook1_Schema+"\".\"Artist\".\"Name\"
+FROM \""+context.postgreschinook1_Schema+"\".\"Artist\""
+```
  
