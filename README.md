@@ -185,3 +185,4 @@ FROM \""+context.postgreschinook1_Schema+"\".\"Artist\""
 ```
 ## JRE/JVM<a class="anchor" id="jrejvm"> 
 ![jvm](./Talend_images/JVM.png)
+> :warning: **N'oubliez pas de redémarrer Talend**: Be very careful here!
