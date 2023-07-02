@@ -17,6 +17,7 @@
 * [15. tLogCatcher](#tLogCatcher)
 * [16. tStatCatcher](#tLogCatcher)
 * [17. POSTGRESQL](#postgresql)
+* [18. JRE/JVM](#jrejvm)
 ## 1. Cas : déplacement de fichiers pdf puis archivage puis suppression des fichiers d'origine<a class="anchor" id="dep1"></a>
 ![depl1](Talend_images/deplacement_archivage_suppression.png)
 ![depl2](Talend_images/deplacement_archivage_suppression2.png)
@@ -182,4 +183,5 @@ Il y a une autre possibilté d'avoir tous les logs et stats du job:
   \""+context.postgreschinook1_Schema+"\".\"Artist\".\"Name\"
 FROM \""+context.postgreschinook1_Schema+"\".\"Artist\""
 ```
- 
+## JRE/JVM<a class="anchor" id="jrejvm"> 
+![jvm](./Talend_images/JVM.png)
