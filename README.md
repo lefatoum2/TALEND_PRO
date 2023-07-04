@@ -177,17 +177,17 @@ Il y a une autre possibilté d'avoir tous les logs et stats du job:
 ![allstats](./Talend_images/allstats.png)
 
 
-## POSTGRESQL<a class="anchor" id="postgresql"> 
+## POSTGRESQL<a class="anchor" id="postgresql"></a>
 ```sql
 "SELECT 
   \""+context.postgreschinook1_Schema+"\".\"Artist\".\"ArtistId\", 
   \""+context.postgreschinook1_Schema+"\".\"Artist\".\"Name\"
 FROM \""+context.postgreschinook1_Schema+"\".\"Artist\""
 ```
-## JRE/JVM<a class="anchor" id="jrejvm"> 
+## JRE/JVM<a class="anchor" id="jrejvm"></a>
 ![jvm](./Talend_images/JVM.png)
 > :warning: **N'oubliez pas de redémarrer Talend après avoir choisi le JDK!**
 
-## Consommation API sans clé<a class="anchor" id="API1"> 
+## Consommation API sans clé<a class="anchor" id="API1"></a>
 ![api1](./Talend_images/API1.png)
 ![api2](./Talend_images/API2.png)
