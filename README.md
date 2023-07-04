@@ -188,6 +188,6 @@ FROM \""+context.postgreschinook1_Schema+"\".\"Artist\""
 ![jvm](./Talend_images/JVM.png)
 > :warning: **N'oubliez pas de redémarrer Talend après avoir choisi le JDK!**
 
-## Consommation API sans clé<a class="anchor" id="API"> 
+## Consommation API sans clé<a class="anchor" id="API1"> 
 ![api1](./Talend_images/API1.png)
 ![api2](./Talend_images/API2.png)
