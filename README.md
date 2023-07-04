@@ -18,6 +18,7 @@
 * [16. tStatCatcher](#tLogCatcher)
 * [17. POSTGRESQL](#postgresql)
 * [18. JRE/JVM](#jrejvm)
+* [19. Consommation API sans clé](#API1)
 ## 1. Cas : déplacement de fichiers pdf puis archivage puis suppression des fichiers d'origine<a class="anchor" id="dep1"></a>
 ![depl1](Talend_images/deplacement_archivage_suppression.png)
 ![depl2](Talend_images/deplacement_archivage_suppression2.png)
@@ -186,3 +187,7 @@ FROM \""+context.postgreschinook1_Schema+"\".\"Artist\""
 ## JRE/JVM<a class="anchor" id="jrejvm"> 
 ![jvm](./Talend_images/JVM.png)
 > :warning: **N'oubliez pas de redémarrer Talend après avoir choisi le JDK!**
+
+## Consommation API sans clé<a class="anchor" id="API"> 
+![api1](./Talend_images/API1.png)
+![api2](./Talend_images/API2.png)
