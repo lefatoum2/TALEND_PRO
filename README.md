@@ -196,3 +196,7 @@ FROM \""+context.postgreschinook1_Schema+"\".\"Artist\""
 
 API avec clé
 ![api3](./Talend_images/APIkey.png)
+
+
+## Planification d'un job sans TAC (Talend Administration Center)
+![batch1](./Talend_images/batch1.png)
