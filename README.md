@@ -20,6 +20,8 @@
 * [18. JRE/JVM](#jrejvm)
 * [19. Consommation API sans clé](#apia)
 * [20. Planification d'un job sans TAC](#batch)
+* [21. Envoie mail après erreur](#mailerror)
+* [22. Création d'une routine](#routine)
   
 ## 1. Cas : déplacement de fichiers pdf puis archivage puis suppression des fichiers d'origine<a class="anchor" id="dep1"></a>
 ![depl1](Talend_images/deplacement_archivage_suppression.png)
