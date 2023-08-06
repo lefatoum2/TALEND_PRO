@@ -203,3 +203,9 @@ API avec clé
 
 ## Planification d'un job sans TAC (Talend Administration Center)<a class="anchor" id="batch"></a>
 ![batch1](./Talend_images/batch1.png)
+![batch2](./Talend_images/batch2.png)
+![batch3](./Talend_images/batch3.png)
+
+
+## Envoie mail après erreur<a class="anchor" id="mailerror"></a>
+![mailerror](./Talend_images/mailerror.png)
