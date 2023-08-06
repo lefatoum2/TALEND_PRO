@@ -19,6 +19,7 @@
 * [17. POSTGRESQL](#postgresql)
 * [18. JRE/JVM](#jrejvm)
 * [19. Consommation API sans clé](#apia)
+* [20. Planification d'un job sans TAC](#batch)
   
 ## 1. Cas : déplacement de fichiers pdf puis archivage puis suppression des fichiers d'origine<a class="anchor" id="dep1"></a>
 ![depl1](Talend_images/deplacement_archivage_suppression.png)
@@ -198,5 +199,5 @@ API avec clé
 ![api3](./Talend_images/APIkey.png)
 
 
-## Planification d'un job sans TAC (Talend Administration Center)
+## Planification d'un job sans TAC (Talend Administration Center)<a class="anchor" id="batch1"></a>
 ![batch1](./Talend_images/batch1.png)
