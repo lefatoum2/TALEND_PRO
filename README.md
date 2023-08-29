@@ -197,7 +197,7 @@ FROM \""+context.postgreschinook1_Schema+"\".\"Artist\""
 ![api1](./Talend_images/API1.png)
 ![api2](./Talend_images/API2.png)
 
-API avec clé
+### API avec clé
 ![api12](./Talend_images/api12.png)
 
 
