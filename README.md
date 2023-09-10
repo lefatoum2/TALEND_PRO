@@ -212,6 +212,7 @@ FROM \""+context.postgreschinook1_Schema+"\".\"Artist\""
 ![mailerror](./Talend_images/mailerror.png)
 
 ## Consommation SOAP <a class="anchor" id="mailerror"></a>
+https://help.talend.com/r/fr-FR/7.3/webservice/webservice-scenario
 ![soap2](./Talend_images/soap2.png)
 
 2 ème exemple
