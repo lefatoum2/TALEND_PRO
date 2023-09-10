@@ -22,6 +22,7 @@
 * [20. Planification d'un job sans TAC](#batch)
 * [21. Envoie mail après erreur](#mailerror)
 * [22. Création d'une routine](#routine)
+* [23. Consommation SOAP](#SOAP)
   
 ## 1. Cas : déplacement de fichiers pdf puis archivage puis suppression des fichiers d'origine<a class="anchor" id="dep1"></a>
 ![depl1](Talend_images/deplacement_archivage_suppression.png)
@@ -209,3 +210,7 @@ FROM \""+context.postgreschinook1_Schema+"\".\"Artist\""
 
 ## Envoie mail après erreur<a class="anchor" id="mailerror"></a>
 ![mailerror](./Talend_images/mailerror.png)
+
+## Consommation SOAP <a class="anchor" id="mailerror"></a>
+![soap1](./Talend_images/soap1.png)
+![soap2](./Talend_images/soap2.png)
