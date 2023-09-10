@@ -212,4 +212,4 @@ FROM \""+context.postgreschinook1_Schema+"\".\"Artist\""
 ![mailerror](./Talend_images/mailerror.png)
 
 ## Consommation SOAP <a class="anchor" id="mailerror"></a>
-![soap1](./Talend_images/soap1.png)
+![soap2](./Talend_images/soap1.png)
