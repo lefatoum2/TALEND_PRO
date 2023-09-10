@@ -213,3 +213,10 @@ FROM \""+context.postgreschinook1_Schema+"\".\"Artist\""
 
 ## Consommation SOAP <a class="anchor" id="mailerror"></a>
 ![soap2](./Talend_images/soap2.png)
+
+2 ème exemple
+![soap2a](./Talend_images/soap2a.png)
+![soap3a](./Talend_images/soap3a.png)
+![soap4](./Talend_images/soap4.png)
+![soap5](./Talend_images/soap5.png)
+
