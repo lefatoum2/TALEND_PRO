@@ -23,6 +23,8 @@
 * [21. Envoie mail après erreur](#mailerror)
 * [22. Création d'une routine](#routine)
 * [23. Consommation SOAP](#SOAP)
+* [24. tCreateTempory](#tcreatetempory)
+
   
 ## 1. Cas : déplacement de fichiers pdf puis archivage puis suppression des fichiers d'origine<a class="anchor" id="dep1"></a>
 ![depl1](Talend_images/deplacement_archivage_suppression.png)
@@ -220,4 +222,9 @@ https://help.talend.com/r/fr-FR/7.3/webservice/webservice-scenario
 ![soap3a](./Talend_images/soap3a.png)
 ![soap4](./Talend_images/soap4.png)
 ![soap5](./Talend_images/soap5.png)
+
+## tCreateTempory<a class="anchor" id="tcreatetempory"></a>
+![createtempory1](./Talend_images/tcreatetempory1.png)
+![tcreatetempory2](./Talend_images/tcreatetempory2.png)
+
 
