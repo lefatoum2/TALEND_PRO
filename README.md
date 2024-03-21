@@ -191,6 +191,10 @@ Il y a une autre possibilté d'avoir tous les logs et stats du job:
   \""+context.postgreschinook1_Schema+"\".\"Artist\".\"Name\"
 FROM \""+context.postgreschinook1_Schema+"\".\"Artist\""
 ```
+
+```sql
+"  select Code_Depot_A,Code_Depot_N from TMS_Code_Depot where Code_Depot_A = \'"+context.new1+"\'"
+```
 ## JRE/JVM<a class="anchor" id="jrejvm"></a>
 ![jvm](./Talend_images/JVM.png)
 > :warning: **N'oubliez pas de redémarrer Talend après avoir choisi le JDK!**
