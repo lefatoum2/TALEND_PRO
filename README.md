@@ -24,6 +24,7 @@
 * [22. Création d'une routine](#routine)
 * [23. Consommation SOAP](#SOAP)
 * [24. tCreateTempory](#tcreatetempory)
+* [25. Suppression de fichier selon le nombre de jours](#deletefiles)
 
   
 ## 1. Cas : déplacement de fichiers pdf puis archivage puis suppression des fichiers d'origine<a class="anchor" id="dep1"></a>
@@ -231,4 +232,8 @@ https://help.talend.com/r/fr-FR/7.3/webservice/webservice-scenario
 ![createtempory1](./Talend_images/tcreatetempory1.png)
 ![tcreatetempory2](./Talend_images/tcreatetempory2.png)
 
+
+
+## Suppression de fichier selon le nombre de jours <a class="anchor" id="#deletefiles"></a>
+![jvm](./Talend_images/deletefiles1.png)
 
