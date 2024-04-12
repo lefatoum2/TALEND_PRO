@@ -235,5 +235,6 @@ https://help.talend.com/r/fr-FR/7.3/webservice/webservice-scenario
 
 
 ## Suppression de fichier selon le nombre de jours <a class="anchor" id="#deletefiles"></a>
-![jvm](./Talend_images/deletefiles1.png)
+![deletefiles1](./Talend_images/deletefiles1.png)
+![deletefiles2](./Talend_images/deletefiles2.png)
 
