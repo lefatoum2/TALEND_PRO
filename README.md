@@ -157,6 +157,22 @@ BigDecimal("xxxx" ou xxxx)
 ### Conversion d'un string en date en précisant le format du string
 TalendDate.parseDate("dd/MM/yyyy","01/01/2021")
 ```
+
+Dates
+```java
+System.out.println(TalendDate.getDate("yyyy-MM-dd'T'HH:mm:ss"));
+System.out.println(TalendDate.getDate("yyyy-MM-dd'T'HH:mm:ss'Z'"));
+System.out.println(TalendDate.formatDate("yyyy-MM-dd",TalendDate.parseDate("yyyy-MM-dd'T'HH:mm:ss","2024-01-12T00:00:00")));
+System.out.println(TalendDate.formatDate("yyyy-MM-dd'T'HH:mm:ss",TalendDate.parseDate("yyyyMMdd","20240112")));
+```
+
+Output:
+```
+2024-04-17T11:13:01
+2024-04-17T11:13:01Z
+2024-01-12
+2024-01-12T00:00:00
+```
 ## Cas d'utilisation: Insertion ou mise à jour d'une catégorie de produit <a class="anchor" id="cat"></a>
 
 ![save_cat](./Talend_images/save_cat.png)
@@ -234,7 +250,7 @@ https://help.talend.com/r/fr-FR/7.3/webservice/webservice-scenario
 
 
 
-## Suppression de fichier selon le nombre de jours <a class="anchor" id="#deletefiles"></a>
+## Suppression de fichier selon le nombre de jours <a class="anchor" id="deletefiles"></a>
 ![deletefiles1](./Talend_images/deletefiles1.png)
 ![deletefiles2](./Talend_images/deletefiles2.png)
 Dans cet exemple, nous avons supprimé tous les fichiers qui ont été modifiés ou créés il y a plus de 30 jours.
