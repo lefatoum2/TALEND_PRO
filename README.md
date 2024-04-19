@@ -252,7 +252,7 @@ https://help.talend.com/r/fr-FR/7.3/webservice/webservice-scenario
 
 
 ## Créer une table temporaire<a class="anchor" id="#tcreatetable_temporary"></a>
-![createtable1](./Talend_images/tcreate_temporary1.png)
+![createtable1](./Talend_images/tcreate_temporary.png)
 ![createtable2](./Talend_images/tcreate_temporary2.png)
 ![createtable3](./Talend_images/tcreate_temporary3.png)
 
