@@ -213,6 +213,13 @@ FROM \""+context.postgreschinook1_Schema+"\".\"Artist\""
 ```sql
 "  select Code_Depot_A,Code_Depot_N from TMS_Code_Depot where Code_Depot_A = \'"+context.new1+"\'"
 ```
+
+mssql
+```mssql
+"SELECT \""+context.connection_ConfigESB_Schema+"\".SFT.Valeur
+FROM \""+context.connection_ConfigESB_Schema+"\".SFT
+WHERE \""+context.connection_ConfigESB_Schema+"\".SFT.Identifiant='"+context.Identifiant+"'"
+```
 ## JRE/JVM<a class="anchor" id="jrejvm"></a>
 ![jvm](./Talend_images/JVM.png)
 > :warning: **N'oubliez pas de redémarrer Talend après avoir choisi le JDK!**
