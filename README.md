@@ -220,6 +220,16 @@ mssql
 FROM \""+context.connection_ConfigESB_Schema+"\".SFT
 WHERE \""+context.connection_ConfigESB_Schema+"\".SFT.Identifiant='"+context.Identifiant+"'"
 ```
+
+```as400
+"select *
+ from M3EPRD.OCUSM1 CL 
+ left outer join M1EPRD.OCUSAD on OPCONO=OKCONO and OPADRT=1 and OPADID='ADR1' 
+ left outer join M1EPRD.OCHCUS on OSCONO=OKCONO and OSCUNO=OKCUNO and OSFVDT<='"+ ((String)globalMap.get("DateDernierTraitement")) +"' and OSLVDT>='"+ ((String)globalMap.get("DateDernierTraitement")) +"'
+ left outer join M1EPRD. OCUSCH  on OQCONO=OKCONO and OQCUNO=OKCUNO and OQCRID='PFE' 
+ where OKCONO=100 
+ and (OKLMDT>='"+ ((String)globalMap.get("DateDernierTraitement")) +"') "
+```
 ## JRE/JVM<a class="anchor" id="jrejvm"></a>
 ![jvm](./Talend_images/JVM.png)
 > :warning: **N'oubliez pas de redémarrer Talend après avoir choisi le JDK!**
