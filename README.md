@@ -27,6 +27,7 @@
 * [25. Créer une table temporaire](#tcreatetable_temporary)
 * [26. Suppression de fichier selon le nombre de jours](#deletefiles)
 
+
   
 ## 1. Cas : déplacement de fichiers pdf puis archivage puis suppression des fichiers d'origine<a class="anchor" id="dep1"></a>
 ![depl1](Talend_images/deplacement_archivage_suppression.png)
@@ -62,6 +63,7 @@ Puis changer la valeur "-Xmx 1024M"
 
 ## 4. Cas d'utilisation : Filtre des colonnes<a class="anchor" id="colonnes"></a>
 ## 5. Cas d'utilisation : Filtre des lignes<a class="anchor" id="lignes"></a>
+![tfilterrow1](Talend_images/tfilterrow1.png)
 ## 6. Cas d'utilisation: insertion de plusieurs fichiers dans une base de donnée<a class="anchor" id="insertionfichiers"></a>
 ![integration_plusieurs_fichiers](./Talend_images/integration_plusieurs_fichiers.png)
 ## 7. Cas d'utilisation: update d'une table<a class="anchor" id="update"></a>
