@@ -62,6 +62,7 @@ Puis changer la valeur "-Xmx 1024M"
 
 
 ## 4. Cas d'utilisation : Filtre des colonnes<a class="anchor" id="colonnes"></a>
+![tfiltercolumns1](Talend_images/tfiltercolumns1.png)
 ## 5. Cas d'utilisation : Filtre des lignes<a class="anchor" id="lignes"></a>
 ![tfilterrow1](Talend_images/tfilterrow1.png)
 ## 6. Cas d'utilisation: insertion de plusieurs fichiers dans une base de donnée<a class="anchor" id="insertionfichiers"></a>
